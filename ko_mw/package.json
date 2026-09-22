@@ -1,0 +1,19 @@
+{
+  "name": "world-briefing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "월드 브리핑 — 실시간 세계 소식 대시보드",
+  "scripts": {
+    "dev": "netlify dev --port 8889"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "@netlify/blobs": "^10.0.11",
+    "fast-xml-parser": "^5.2.5"
+  },
+  "devDependencies": {
+    "@google/genai": "^2.23.0",
+    "@netlify/functions": "^4.2.11"
+  }
+}
